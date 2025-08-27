@@ -43,7 +43,7 @@ const QMAKE_SEND_WEBAPP = 4;
 const QMAKE_SEND_NODEJS = 5;
 const QMAKE_SEND_NODEJS_LOCAL = 6;  
 
-const QUIZ_KEYWORD = "H$YuxepwvdCH&s5w";
+const QUIZ_KEYWORD = "6ojs33zbdydMHi1&";
 
 const USER_LOGIN_ANONYMOUS = "Anonymous";
 const USER_EMAIL_ANONYMOUS = "anonymous@anonymous.nowhere";
@@ -60,9 +60,9 @@ const options =
 	description: "Listening Level Test",
 	id: 0,
 	numOfQuestions: 6,
-	notValuatedQuestionsArray: [1,1,1,1,1,1],
+	notValuatedQuestionsArray: [4,4,4,4,4,4],
 	noChoicePointsArray: [0,0,0,0,0,0],
-	weightsArray: [1,1,1,1,1,1],
+	weightsArray: [4,4,4,4,4,4],
 	maxtime: 1200, 
 	maxmark: 10,
 	minmark: 0,
@@ -97,9 +97,9 @@ const options =
 	showLinkButton: false,
 	clearAlwaysHistory: true,
 	disableRightClickMenu: true,
-	needSaveQuiz: false,
-	saveQuizMode: QMAKE_NO_SAVE,
-	saveQuizUrl: "",
+	needSaveQuiz: true,
+	saveQuizMode: QMAKE_SEND_WEBAPP,
+	saveQuizUrl: "https://script.google.com/macros/s/AKfycbxzSnenGqVCo-ngBIPn4ON1PLaRU3aewwwT1ygcOjNvtr_LcrrUOGWcZXsgaqOpl9mupw/exec",
 	allowRetakeQuiz: false,
 	maxNumRetake: 100,
 	upperMarkForRetake: 6,
